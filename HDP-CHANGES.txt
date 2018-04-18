@@ -11,3 +11,6 @@ Backport from Livy 0.5
   LIVY-406      Fix Livy cannot app id in yarn client mode issue
   LIVY-411      Fix session cannot start issue when python or r package is missing
   LIVY-418      Respect spark.pyspark.python for PythonInterpreter
+
+    BUG-121112. [][LIVY-457][REPL] Fix SQLContext is not initialized correctly
+    issue
