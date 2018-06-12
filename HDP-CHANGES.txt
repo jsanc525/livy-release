@@ -12,3 +12,4 @@ Backport from Livy 0.5
   LIVY-411      Fix session cannot start issue when python or r package is missing
   LIVY-418      Respect spark.pyspark.python for PythonInterpreter
   LIVY-498      [REPL] Fix Windows CRLF line ending issue in SparkR interpreter
+                [Security] Update to support pyspark and sparkr changes in Spark 2.3.1
