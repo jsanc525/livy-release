@@ -18,3 +18,4 @@ Backports
   LIVY-477      Upgrade Scala version to 2.11.12
   LIVY-475      Support of Hadoop CredentialProvider API
   LIVY-498      [REPL] Fix Windows CRLF line ending issue in SparkR interpreter
+HOTFIX-3452 Fixing spark download url
