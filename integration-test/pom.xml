@@ -38,6 +38,7 @@
     -->
     <cluster.spec>default</cluster.spec>
     <skipDeploy>true</skipDeploy>
+    <guava.version>15.0</guava.version>
   </properties>
 
   <dependencies>
