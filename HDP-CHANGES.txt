@@ -7,6 +7,9 @@ BUG FIXES
   BUG-67685     repl scala_2.11 uses spark2.
   BUG-96219     Change the pom file to make internal build work
 
+  (Security fix)
+  BUG-121102 Upgrade jackson-databind to 2.9.9.1
+
 Backports
   LIVY-446      Livy to Support Spark 2.3
   LIVY-455      Fix json4s doesn't support java.math.BigDecimal issue
