@@ -78,6 +78,11 @@
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
     </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>failureaccess</artifactId>
+      <version>1.0.1</version>
+    </dependency>
 
     <dependency>
       <groupId>io.dropwizard.metrics</groupId>
