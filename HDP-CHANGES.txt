@@ -9,6 +9,7 @@ BUG FIXES
 
   (Security fix)
   BUG-121102 Upgrade jackson-databind to 2.9.9.1
+  BUG-121444 Upgrade jackson-databind to 2.9.9.2
 
 Backports
   LIVY-446      Livy to Support Spark 2.3
