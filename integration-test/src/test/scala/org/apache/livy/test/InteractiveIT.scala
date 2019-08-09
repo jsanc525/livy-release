@@ -68,7 +68,7 @@ class InteractiveIT extends BaseIntegrationTestSuite {
       // This is important because if YARN app state is killed, Spark history is not archived.
       val appId = s.appId()
       s.stop()
-      eventually(timeout(5 seconds), interval(1 seconds)) {
+      eventually(timeout(30 seconds), interval(1 seconds)) {
         val appReport = cluster.yarnClient.getApplicationReport(appId)
         appReport.getYarnApplicationState() shouldEqual YarnApplicationState.FINISHED
       }
