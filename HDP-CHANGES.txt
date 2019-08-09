@@ -11,3 +11,4 @@ Backport from Livy 0.5
   LIVY-406      Fix Livy cannot app id in yarn client mode issue
   LIVY-411      Fix session cannot start issue when python or r package is missing
   LIVY-418      Respect spark.pyspark.python for PythonInterpreter
+  LIVY-547      Livy kills session after livy.server.session.timeout even if the session is active
