@@ -134,6 +134,7 @@ class BatchServletSpec extends BaseSessionServletSpec[BatchSession, BatchRecover
       when(session.appId).thenReturn(Some(appId))
       when(session.appInfo).thenReturn(appInfo)
       when(session.logLines()).thenReturn(log)
+      when(session.proxyUser).thenReturn(None)
 
       val req = mock[HttpServletRequest]
 

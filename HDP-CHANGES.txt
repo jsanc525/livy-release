@@ -24,3 +24,4 @@ Backports
   LIVY-475      Support of Hadoop CredentialProvider API
   LIVY-498      [REPL] Fix Windows CRLF line ending issue in SparkR interpreter
   LIVY-695      Upgrade JQuery to 3.4.1 and Bootstrap to 3.4.1
+BUG-124412. [][LIVY-592][SERVER] Allow proxy user to view or modify his session
