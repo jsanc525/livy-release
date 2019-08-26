@@ -59,7 +59,10 @@ class InteractiveIT extends BaseIntegrationTestSuite {
       val appId = s.appId()
       s.stop()
       val appReport = cluster.yarnClient.getApplicationReport(appId)
-      appReport.getYarnApplicationState() shouldEqual YarnApplicationState.FINISHED
+      eventually(timeout(30 seconds), interval(1 seconds)) {
+        val appReport = cluster.yarnClient.getApplicationReport(appId)
+        appReport.getYarnApplicationState() shouldEqual YarnApplicationState.FINISHED
+      }
     }
   }
 

@@ -362,7 +362,7 @@ class MiniCluster(config: Map[String, String]) extends Cluster with MiniClusterU
 
     // Wait for the config file to show up before returning, so that dependent services
     // can see the configuration. Exit early if process dies.
-    eventually(timeout(30 seconds), interval(100 millis)) {
+    eventually(timeout(150 seconds), interval(100 millis)) {
       assert(configFile.isFile(), s"$simpleName hasn't started yet.")
 
       try {
