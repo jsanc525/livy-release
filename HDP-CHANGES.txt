@@ -25,3 +25,4 @@ Backports
   LIVY-498      [REPL] Fix Windows CRLF line ending issue in SparkR interpreter
   LIVY-695      Upgrade JQuery to 3.4.1 and Bootstrap to 3.4.1
   LIVY-518      Support Spark 2.4
+[LIVY-642] Fix a rare status happened in yarn cause SparkApp change into error state
