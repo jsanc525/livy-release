@@ -21,3 +21,4 @@ Backports
 
   (Jira in Apache Spark is IN PROGRESS)
   LIVY-518      Support Spark 2.4
+[LIVY-642] Fix a rare status happened in yarn cause SparkApp change into error state
