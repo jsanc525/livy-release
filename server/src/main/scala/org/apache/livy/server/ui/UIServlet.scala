@@ -40,7 +40,7 @@ class UIServlet extends ScalatraServlet {
       <link rel="stylesheet" href="/static/css/bootstrap.min.css" type="text/css"/>
       <link rel="stylesheet" href="/static/css/dataTables.bootstrap.min.css" type="text/css"/>
       <link rel="stylesheet" href="/static/css/livy-ui.css" type="text/css"/>
-      <script src="/static/js/jquery-3.2.1.min.js"></script>
+      <script src="/static/js/jquery-3.4.1.min.js"></script>
       <script src="/static/js/bootstrap.min.js"></script>
       <script src="/static/js/jquery.dataTables.min.js"></script>
       <script src="/static/js/dataTables.bootstrap.min.js"></script>
