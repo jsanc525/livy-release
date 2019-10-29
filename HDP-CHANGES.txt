@@ -8,7 +8,8 @@ BUG FIXES
   BUG-96219     Change the pom file to make internal build work
 
   (Security fix)
-  BUG-121102 Upgrade jackson-databind to 2.9.9.1
+  BUG-121102    Upgrade jackson-databind to 2.9.9.1
+  BUG-122085    Upgrade Netty to 4.1.42.Final
 
 Backports
   LIVY-446      Livy to Support Spark 2.3
