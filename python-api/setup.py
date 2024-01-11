@@ -54,5 +54,5 @@ setup(
     classifiers=CLASSIFIERS,
     install_requires=requirements,
     setup_requires=['flake8'],  # 'pytest-runner',
-    tests_require=['pytest']
+    #  tests_require=['pytest']
 )

@@ -242,7 +242,7 @@ class JobApiIT extends BaseIntegrationTestSuite with BeforeAndAfterAll with Logg
     sessionId = -1
   }
 
-  ignore("validate Python-API requests") {
+  test("validate Python-API requests") {
     val addFileContent = "hello from addfile"
     val addFilePath = createTempFilesForTest("add_file", ".txt", addFileContent, true)
     val addPyFileContent = "def test_add_pyfile(): return \"hello from addpyfile\""
