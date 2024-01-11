@@ -29,3 +29,5 @@ python-api/dist
 .eggs
 *.egg-info
 *.egg
+
+.github/test_python_api.py
